@@ -1,0 +1,75 @@
+[
+  {
+    "ContainingType": "SeminarASPDemo.Controllers.ProfessorController",
+    "Method": "Get",
+    "RelativePath": "Professor/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SeminarASPDemo.Professor",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SeminarASPDemo.Controllers.ProfessorController",
+    "Method": "Delete",
+    "RelativePath": "Professor/{name}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SeminarASPDemo.Controllers.ProfessorController",
+    "Method": "AddProf",
+    "RelativePath": "Professor/{professorInfo}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "professor",
+        "Type": "SeminarASPDemo.Professor",
+        "IsRequired": true
+      },
+      {
+        "Name": "professorInfo",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SeminarASPDemo.Professor",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
